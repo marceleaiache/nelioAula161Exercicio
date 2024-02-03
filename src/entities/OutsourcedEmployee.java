@@ -15,7 +15,7 @@ public class OutsourcedEmployee extends Employee {
         this.additionalCharge = additionalCharge;
     }
 
-    //MÉTODOS CONSTRUTORES
+    //MÉTODOS FUNÇÃO
     public Double getAdditionalCharge() {
         return additionalCharge;
     }
