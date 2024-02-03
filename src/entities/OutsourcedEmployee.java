@@ -15,7 +15,10 @@ public class OutsourcedEmployee extends Employee {
         this.additionalCharge = additionalCharge;
     }
 
-    //MÉTODOS FUNÇÃO
+    //MÉTODOS GETTERS AND SETTERS
+
+
+    //MÉTODO GETTER AND SETTER
     public Double getAdditionalCharge() {
         return additionalCharge;
     }
@@ -24,6 +27,7 @@ public class OutsourcedEmployee extends Employee {
         this.additionalCharge = additionalCharge;
     }
 
+    //SOBREPOSIÇÃO DE UMA FUNÇÃO
     @Override
     public double payment() {
         return super.payment() + additionalCharge * 1.1;
